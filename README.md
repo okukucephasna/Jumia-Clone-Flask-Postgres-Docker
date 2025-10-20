@@ -1,7 +1,7 @@
 ```markdown
-# 🛍️ Jumia-Like E-commerce App (Flask + MySQL + Docker + M-Pesa STK Push)
+# 🛍️ Jumia-Like E-commerce App (Flask + Postgres + Docker + M-Pesa STK Push)
 
-A simple yet functional **Jumia-like online shop** built using **Flask**, **MySQL**, and **Safaricom Daraja STK Push API** for seamless mobile payments — now containerized with **Docker** for easy setup and deployment.
+A simple yet functional **Jumia-like online shop** built using **Flask**, **Postgres**, and **Safaricom Daraja STK Push API** for seamless mobile payments — now containerized with **Docker** for easy setup and deployment.
 
 This project demonstrates **real-world e-commerce features**, **database integration**, and **mobile payment automation** using Python and Docker.
 
@@ -13,8 +13,8 @@ This project demonstrates **real-world e-commerce features**, **database integra
 - 🛒 Browse Products by Category (Smartphones, Clothes, Bags, etc.)
 - 📦 View Single Product Details & Similar Products
 - 💳 M-Pesa STK Push Payment Integration (Daraja API)
-- 🗃️ MySQL Database (Users, Products, Orders)
-- 🧱 Dockerized Setup for Flask + MySQL
+- 🗃️ Postgres Database (Users, Products, Orders)
+- 🧱 Dockerized Setup for Flask + Postgres
 - 🔐 Logout & Session Management
 - 🧰 Flask Backend with Jinja2 Templates and Bootstrap Styling
 
@@ -25,7 +25,7 @@ This project demonstrates **real-world e-commerce features**, **database integra
 | Component | Technology |
 |------------|-------------|
 | **Backend** | Flask (Python) |
-| **Database** | MySQL 8.x |
+| **Database** | Postgres 8.x |
 | **Containerization** | Docker + Docker Compose |
 | **Frontend** | HTML, CSS, Bootstrap (Jinja2 templates) |
 | **Payments** | M-Pesa Daraja STK Push API |
