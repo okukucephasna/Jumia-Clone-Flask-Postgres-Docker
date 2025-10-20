@@ -267,7 +267,45 @@ SHORTCODE=174379
 3. Check your M-Pesa simulator for STK confirmation.
 
 ---
+Perfect — you already have a strong README. What you’re asking for is to make the **screenshot captions** sound more like developer documentation (clear, descriptive, and professional), rather than casual text.
 
+Here’s your **improved section** rewritten to match the tone of the rest of your README (clean, technical, and GitHub-ready):
+
+---
+
+## 📸 Project Screenshots
+
+Below are key interface and environment screenshots demonstrating how the application runs and looks in a containerized setup.
+
+### 🐳 1. Docker Environment – Application Startup
+
+A view of the Docker Desktop environment showing the running containers for both **Flask** and **MySQL** services. This setup is orchestrated through `docker-compose.yml` for a seamless development workflow. <img width="734" height="415" alt="Docker containers running Flask and MySQL" src="https://github.com/user-attachments/assets/55fbf0de-6a2d-48ee-9d80-e67ab2394c46" />
+
+---
+
+### 🏠 2. Home Page – Product Listings
+
+The landing page displays all available products categorized for easy browsing. It’s rendered using **Jinja2 templates** and styled with **Bootstrap**. <img width="953" height="397" alt="Home page with product listings and image carousel" src="https://github.com/user-attachments/assets/5132bfa9-2ac2-486e-9904-5aa6f02332bf" />
+
+---
+
+### 🔐 3. Login Page – User Authentication
+
+A simple login form for returning users, implementing **Flask session-based authentication** and password verification. <img width="940" height="362" alt="User login interface" src="https://github.com/user-attachments/assets/4c24182c-7215-4381-a1f4-09f6f7f99342" />
+
+---
+
+### 🧾 4. Registration Page – New User Onboarding
+
+The registration screen allows new users to create accounts securely, storing hashed credentials in the MySQL database. <img width="959" height="406" alt="User registration form" src="https://github.com/user-attachments/assets/7f93270c-55cd-4f83-b5a4-6dd425176076" />
+
+---
+
+### 🛒 5. Product Dashboard – After Login
+
+Once logged in, users can browse and purchase products. The M-Pesa STK Push integration enables seamless checkout experiences directly from this page. <img width="956" height="398" alt="Authenticated user view with products and M-Pesa purchase option" src="https://github.com/user-attachments/assets/9dfbf2e0-b7d9-4ff7-b47c-c5308df8e9a2" />
+
+---
 ## 🧠 Skills Demonstrated
 
 * Flask Routing & Template Rendering
