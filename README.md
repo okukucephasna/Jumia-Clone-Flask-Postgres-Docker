@@ -1,9 +1,3 @@
-Perfect ✅ — here’s the **enhanced GitHub README** for your project, now fully **integrated with Docker + MySQL** setup.
-
-This version keeps your M-Pesa, Flask, and e-commerce context — but adds clean, developer-friendly instructions for containerization (via Docker Compose), environment configuration, and connection management.
-
----
-
 ```markdown
 # 🛍️ Jumia-Like E-commerce App (Flask + MySQL + Docker + M-Pesa STK Push)
 
@@ -40,31 +34,26 @@ This project demonstrates **real-world e-commerce features**, **database integra
 
 ---
 
-## ⚙️ Project Structure
-
-```
-
 jumia-flask/
 │
-├── static/                # CSS, JS, and image files
+├── static/                  # CSS, JS, and image files
 │   ├── style.css
 │   └── images/
 │
-├── templates/             # HTML templates (home, single, signup, signin)
+├── templates/               # HTML templates (home, single, signup, signin)
 │   ├── index.html
 │   ├── single.html
 │   ├── signup.html
 │   ├── signin.html
 │   └── payment.html
 │
-├── app.py                 # Main Flask application
-├── derrick.sql            # SQL script to initialize MySQL database
-├── Dockerfile             # Flask app container
-├── docker-compose.yml     # Combined services (Flask + MySQL)
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
+├── app.py                   # Main Flask application
+├── derrick.sql              # SQL script to initialize MySQL/PostgreSQL database
+├── Dockerfile               # Docker configuration for Flask container
+├── docker-compose.yml       # Defines multi-container setup (Flask + DB)
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
 
-````
 
 ---
 
